@@ -10,7 +10,7 @@
         },
         {
             "name": "Database Service",
-            "status": "maintenance"
+            "status": "operational"
         }
     ]
 }
