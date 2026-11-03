@@ -1,0 +1,16 @@
+{
+    "services": [
+        {
+            "name": "Authentication Service",
+            "status": "operational"
+        },
+        {
+            "name": "Internal Application",
+            "status": "operational"
+        },
+        {
+            "name": "Database Service",
+            "status": "maintenance"
+        }
+    ]
+}
