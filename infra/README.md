@@ -2,14 +2,14 @@
 
 ## Purpose
 
-This exercise demonstrates how to define, validate, and provision Azure infrastructure using Bicep
+This exercise demonstrates how to define, validate, and provision Azure infrastructure using Bicep.
 
 ## What I Implemented
 
-- Creted Bicep templates for Azure Static Websites.
-- Complied and validated the infrastructure configuration.
+- Created Bicep templates for Azure Static Websites.
+- Compiled and validated the infrastructure configuration.
 - Used Azure What-If to preview proposed changes.
-- Provisioned a temporay Azure Static Web App using Bicep.
+- Provisioned a temporary Azure Static Web Apps using Bicep.
 - Verified the resource through Azure CLI and Azure Portal. 
 - Deleted the temporary resource after testing.
 
