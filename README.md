@@ -154,3 +154,5 @@ Improvements include:
 - More comprehensive infrastructure as Code and CI/CD integration.
 
 The improvements will help extend this project into a more advanced cloud engineering environment.
+
+Thank you for coming along with me learning more about Azure environments on this project! More to come soon, I appreciate your support!
