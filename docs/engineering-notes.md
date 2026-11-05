@@ -18,8 +18,12 @@ I used GitHub Actions to automate application deployments to Azure. Whenever cha
 
 ## 5. Reliability and Recovery
 
-I intentionally introduced invalid service data to verify that the deployment pipeline would reject it. I also used Git revert to reverse a previous change and restore the expected application state. These tests demonstrate how the project detects certain errors and recovers from unwanted changes.
+I intentionally introduced invalid service data to verify that the deployment pipeline would reject it. I also used git revert to create a new commit and GitHub Actons deployed the correct version. These tests demonstrate how the project detects certain errors and recovers from unwanted changes.
 
 ## 6. Current Limitations
 
 The application currently requires manual updates to service statuses and does not provide automated, real-time monitoring. In a production environment, I would consider adding automated health checks, alerting capabilities, and a backend service. These improvements would make the dashboard more useful for an organization's IT operations.
+
+## 7. Security Considerations
+
+I used GitHub Actions Secrets to securely store the Azure deployment token instead of including it directly in the prioject files. This allows GitHub Actions to access Azure and deploy my application without exposing the token publicly in my GitHub repository
